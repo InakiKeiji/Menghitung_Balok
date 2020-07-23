@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rumus_balok_dan_sifatnya"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pengertian"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_sifat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sifat_balok"
+            style="@style/TextButton"/>
+
+        <Button
+            android:id="@+id/btn_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextButton"
+            android:text="@string/volume"/>
+
+        <Button
+            android:id="@+id/btn_luasPermukaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextButton"
+            android:text="@string/luas_permukaan"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_panjang"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/panjang"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_lebar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/lebar"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_tinggi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/tinggi"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_diagonalBidangSisi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/diagonal_bidang_atau_sisi"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_diagonalRuang"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/diagonal_ruang"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_luasBidangDiagonal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TextButton"-->
+<!--            android:text="@string/luas_bidang_diagonal"/>-->
+
+    </LinearLayout>
+
+</ScrollView>

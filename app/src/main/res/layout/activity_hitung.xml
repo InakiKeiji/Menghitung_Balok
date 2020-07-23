@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+<!--        <EditText-->
+<!--            android:id="@+id/edt_volume"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/volume_v"-->
+<!--            style="@style/kotakInput"/>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edt_luasPermukaan"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/luas_permukaan_l"-->
+<!--            style="@style/kotakInput"/>-->
+
+        <EditText
+            android:id="@+id/edt_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/panjang_p"
+            style="@style/kotakInput"/>
+
+        <EditText
+            android:id="@+id/edt_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lebar_l"
+            style="@style/kotakInput"/>
+
+        <EditText
+            android:id="@+id/edt_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tinggi_t"
+            style="@style/kotakInput"/>
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hitung"
+            style="@style/TextButton"/>
+
+        <TextView
+            android:id="@+id/tv_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hasil"
+            style="@style/hasil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rumus"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/tv_rumus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/isi_rumus"
+            style="@style/rumus"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -3,12 +3,6 @@
     <string name="sifat_balok">sifat-sifat balok</string>
     <string name="volume">Volume</string>
     <string name="luas_permukaan">Luas Permukaan</string>
-<!--    <string name="panjang">Panjang</string>-->
-<!--    <string name="lebar">Lebar</string>-->
-<!--    <string name="tinggi">Tinggi</string>-->
-<!--    <string name="diagonal_bidang_atau_sisi">diagonal bidang atau sisi</string>-->
-<!--    <string name="diagonal_ruang">Diagonal Ruang</string>-->
-<!--    <string name="luas_bidang_diagonal">luas bidang diagonal</string>-->
     <string name="pengertian">
         Balok adalah bangun ruang tiga dimensi yang tersusun oleh 3 pasang segi empat (persegi atau persegi panjang) dan paling sedikit mempunyai 1 pasangan sisi segi empat yang mempunyai bentuk yang berbeda.
     </string>
@@ -28,9 +22,5 @@
     <string name="SifatBalok7">Diagonal bidang yang sejajar mempunyai ukuran yang sama.</string>
     <string name="SifatBalok8">Mempunyai 4 diagonal ruang dan semuanya mempunyai ukuran yang sama.</string>
     <string name="SifatBalok9">Setiap bidang diagonal berbentuk persegi panjang.</string>
-<!--    <string name="VolumDiket">jika volume diketahui</string>-->
-<!--    <string name="LuasPermDiket">jika luas permukaan diketahui</string>-->
-<!--    <string name="volume_v">Volume (V)</string>-->
-<!--    <string name="luas_permukaan_l">Luas Permukaan (L)</string>-->
     <string name="isi_rumus">Isi Rumus</string>
 </resources>

@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HitungActivity"></activity>
-<!--        <activity android:name=".HitungPLTActivity" />-->
-        <activity android:name=".PilPLTActivity" />
-<!--        <activity android:name=".VLActivity" />-->
+        <activity android:name=".HitungActivity" />
         <activity android:name=".SifatActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

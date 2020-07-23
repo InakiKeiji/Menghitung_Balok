@@ -9,20 +9,6 @@
         android:orientation="vertical"
         android:padding="8dp">
 
-<!--        <EditText-->
-<!--            android:id="@+id/edt_volume"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="@string/volume_v"-->
-<!--            style="@style/kotakInput"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/edt_luasPermukaan"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="@string/luas_permukaan_l"-->
-<!--            style="@style/kotakInput"/>-->
-
         <EditText
             android:id="@+id/edt_panjang"
             android:layout_width="match_parent"
